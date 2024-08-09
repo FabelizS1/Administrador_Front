@@ -1,4 +1,5 @@
-import { Link, Form, useActionData, ActionFunctionArgs, redirect, LoaderFunctionArgs, useLoaderData, useLocation } from 'react-router-dom'   /// Con useLocation  se puedde recuperar el state de la pagina anterior y se puede ver mas abajo
+import { Link, Form, useActionData, ActionFunctionArgs, redirect, LoaderFunctionArgs, useLoaderData } from 'react-router-dom'   /// Con useLocation  se puedde recuperar el state de la pagina anterior y se puede ver mas abajo
+///import { Link, Form, useActionData, ActionFunctionArgs, redirect, LoaderFunctionArgs, useLoaderData, useLocation } from 'react-router-dom'   /// Con useLocation  se puedde recuperar el state de la pagina anterior y se puede ver mas abajo
 import ErrorMessage from '../components/ErrorMessage'
 import { getProductById, updateProduct } from '../services/ProductService'
 import { Product } from '../types'
